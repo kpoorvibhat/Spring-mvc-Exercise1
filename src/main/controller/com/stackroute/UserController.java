@@ -10,12 +10,12 @@ import org.springframework.web.servlet.ModelAndView;
 @Controller
 public class UserController {
 
-    @RequestMapping(value = "/", method = RequestMethod.GET)
+    @RequestMapping(value = "welcome", method = RequestMethod.GET)
     public String displayName(Model model) {
         User user = new User("Poorvi");
         System.out.println(user.getName());
         model.addAttribute("user", user.getName());
-        return "iindex";
+        return "index";
     }
 
 }

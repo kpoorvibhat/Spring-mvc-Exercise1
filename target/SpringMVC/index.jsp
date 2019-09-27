@@ -1,4 +1,5 @@
-<%@ page language = "java" contentType = "text/html"; charset= UTF-8 pageEncoding="UTF-8" isELIgnored="false" %>"
+<%@ page contentType="text/html;charset=UTF-8" language="java" isELIgnored="false" %>
+
 <html>
 <body>
 <h2>Welcome ${user} to stackroute</h2>
